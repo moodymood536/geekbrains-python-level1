@@ -40,7 +40,7 @@ for x in second:
 
 print(first)
 
-# easy method
+# easy method (only hashable type)
 print(list(set(first) - set(second)))
 
 # Задача-3:

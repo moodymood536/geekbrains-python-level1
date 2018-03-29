@@ -49,11 +49,11 @@ import random
 n = 10
 random_numbers = []
 
-for x in range(n):
-    random_numbers.append(random.randint(-100, 100))
+# for x in range(n):
+#     random_numbers.append(random.randint(-100, 100))
 
 # generator method
-# random_numbers = [random.randint(-100, 100) for x in range(n)]
+random_numbers = [random.randint(-100, 100) for x in range(n)]
 
 print(random_numbers)
 
