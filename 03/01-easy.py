@@ -5,7 +5,7 @@
 # Для решения задачи не используйте встроенные функции и функции из модуля math.
 
 
-def my_round(number, ndigits):
+def my_round(number, ndigits = 0):
     if ndigits > 0:
         power = 10 ** ndigits
         number = (number * power) + 0.41 #0.4

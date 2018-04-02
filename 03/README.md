@@ -16,3 +16,9 @@
 - hard (fraction) -> simple decimal
     # 5/10 -> 0.5
     # 1 1/2 -> 1.5
+
+
+```python
+def my_round(number, ndigits):
+    return f"{number:.{ndigits}f}"
+```

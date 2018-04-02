@@ -26,7 +26,7 @@ def sort_to_max(origin_list):
     sort = list.copy(origin_list)
     sort_len = len(sort)
 
-    for i in range(sort_len):
+    for _ in range(sort_len):
         for x in range(sort_len - 1):
             if sort[x] > sort[x + 1]:
                 sort[x], sort[x + 1] = sort[x + 1], sort[x]
